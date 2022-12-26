@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Figma Plugin",
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6", "DOM.Iterable"],
+    "strict": true
+  },
+  "exclude": ["node_modules"]
+}
