@@ -13,7 +13,7 @@ module.exports = {
     },
   },
   env: {
-    es2022: true,
+    es2021: true,
   },
   plugins: ['@typescript-eslint'],
   rules: {
