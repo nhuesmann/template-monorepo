@@ -1,0 +1,4 @@
+{
+  "extends": "tsconfig/react-vite-app.json",
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

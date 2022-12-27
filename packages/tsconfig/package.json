@@ -7,7 +7,7 @@
     "cloudflare-worker.json",
     "figma-plugin.json",
     "node.json",
-    "react-app.json"
+    "react-vite-app.json"
   ],
   "devDependencies": {
     "@tsconfig/node-lts": "^18.12.1",
