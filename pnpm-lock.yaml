@@ -32,7 +32,7 @@ importers:
       '@types/react-dom': ^18.0.9
       '@vitejs/plugin-react': ^3.0.0
       autoprefixer: ^10.4.13
-      components: workspace:^*
+      components: workspace:*
       eslint-config-custom: workspace:*
       postcss: ^8.4.20
       react: ^18.2.0
@@ -118,6 +118,16 @@ importers:
       '@tsconfig/node-lts': 18.12.1
       '@tsconfig/recommended': 1.0.1
       '@tsconfig/vite-react': 1.0.1
+
+  packages/types:
+    specifiers:
+      eslint-config-custom: workspace:*
+      tsconfig: workspace:*
+      typescript: ^4.9.4
+    devDependencies:
+      eslint-config-custom: link:../eslint-config-custom
+      tsconfig: link:../tsconfig
+      typescript: 4.9.4
 
 packages:
 
