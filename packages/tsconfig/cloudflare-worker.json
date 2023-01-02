@@ -2,11 +2,11 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Figma Plugin",
   "compilerOptions": {
-    "incremental": true,
     "target": "es2021",
     "lib": ["es2021"],
     "module": "es2022",
     "moduleResolution": "node",
+    "types": ["@cloudflare/workers-types"],
     "resolveJsonModule": true,
     "allowJs": true,
     "checkJs": false,

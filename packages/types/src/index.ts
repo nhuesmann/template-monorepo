@@ -16,3 +16,9 @@ export interface FigmaPluginMessage {
   data?: any;
   error?: string;
 }
+
+export interface WorkerRequestBody {
+  title: string;
+  body: string;
+  userId: number;
+}

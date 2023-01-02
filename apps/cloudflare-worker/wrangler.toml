@@ -1,0 +1,11 @@
+name = "monorepo-worker"
+workers_dev=true
+main = "src/index.ts"
+compatibility_date = "2023-01-02"
+
+[vars]
+JWT_SECRET = "asdsfW*(EFD2.sdff03s-388fb_f3k79f"
+API_URL = "https://jsonplaceholder.typicode.com/posts"
+
+[env.production.vars]
+JWT_SECRET = "f29fF$Jd_n%fn3#.ffsf40-sdfG(fWLDf"
