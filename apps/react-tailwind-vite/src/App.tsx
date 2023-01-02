@@ -2,22 +2,17 @@ import { Button } from 'components';
 
 function App() {
   return (
-    <div className="flex h-screen items-center">
-      <div className="group relative mx-auto w-96 overflow-hidden rounded-[16px] bg-gray-300 p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500">
-        <div className="invisible absolute -inset-y-40 inset-x-10 bg-gradient-to-r from-transparent via-white/90 to-transparent group-hover:visible"></div>
-        <div className="relative rounded-[15px] bg-white p-6">
-          <div className="space-y-4">
-            <img src="https://nuxt.com/assets/home/ux-fast-light.svg" alt="" />
-            <p className="text-lg font-semibold text-slate-800">
-              Fast and Furious
-            </p>
-            <p className="text-slate-500">
-              Optimized with code-splitting, tree-shaking, optimized cold-start,
-              link prefetching, payload extraction, just to name a few. Fast by
-              default so you can focus on building.
-            </p>
-            <Button />
-          </div>
+    <div className="flex h-screen flex-col items-center justify-center bg-slate-900">
+      <div className="flex justify-center">
+        <div className="block max-w-sm rounded-lg bg-white p-6 shadow-lg">
+          <h5 className="mb-2 text-xl font-medium leading-tight text-gray-900">
+            Card title
+          </h5>
+          <p className="mb-4 text-base text-gray-700">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <Button text="Get Started" />
         </div>
       </div>
     </div>

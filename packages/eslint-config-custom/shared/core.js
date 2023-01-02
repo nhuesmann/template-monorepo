@@ -14,6 +14,8 @@ module.exports = {
   },
   env: {
     es2021: true,
+    // ! Had to add this to avoid weird eslint bugs
+    node: true,
   },
   plugins: ['@typescript-eslint'],
   rules: {
@@ -28,6 +30,14 @@ module.exports = {
       },
     ],
   },
+  overrides: [
+    {
+      files: ['**/*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+  ],
   // globals: {
   //   console: false,
   //   exports: false,

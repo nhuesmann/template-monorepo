@@ -1,4 +1,6 @@
 import './index.css';
+// include styles from the ui package
+import 'components/styles.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';

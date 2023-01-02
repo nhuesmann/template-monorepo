@@ -1,3 +1,5 @@
+const config = require('tailwind-config/tailwind.config.js');
+
 module.exports = {
   extends: ['plugin:tailwindcss/recommended'],
   plugins: ['react', 'react-hooks', 'tailwindcss'],
@@ -38,12 +40,7 @@ module.exports = {
     'react/self-closing-comp': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'off',
-    'tailwindcss/no-custom-classname': [
-      1,
-      {
-        config: 'tailwind.config.cjs',
-      },
-    ],
+    'tailwindcss/no-custom-classname': [1, { config }],
   },
   settings: {
     react: { version: 'detect' },

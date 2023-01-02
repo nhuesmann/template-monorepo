@@ -25,11 +25,6 @@ export const getAllWorkspaces: RequestHandler = async (req, res) => {
     packageWorkspacesPromises,
   ]);
 
-  console.log({
-    appWorkspaces,
-    packageWorkspaces,
-  });
-
   res.json({
     apps: appWorkspaces,
     packages: packageWorkspaces,
