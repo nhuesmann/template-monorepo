@@ -1,0 +1,10 @@
+{
+  "extends": "tsconfig/figma-plugin.json",
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es2015", "DOM"],
+    "strict": true,
+    "skipLibCheck": true,
+    "typeRoots": ["../../node_modules/@figma"]
+  }
+}

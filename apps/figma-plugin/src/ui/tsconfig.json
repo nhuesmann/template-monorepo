@@ -1,0 +1,8 @@
+{
+  "extends": "tsconfig/react-vite-app.json",
+  "compilerOptions": {
+    "lib": ["ES2015", "DOM"],
+    "skipLibCheck": true,
+    "typeRoots": ["../../node_modules/@types", "../../node_modules/@figma"]
+  }
+}

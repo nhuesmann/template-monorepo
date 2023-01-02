@@ -1,0 +1,8 @@
+{
+  "name": "Monorepo Test",
+  "id": "1191586830981085858",
+  "api": "1.0.0",
+  "main": "dist/plugin.js",
+  "ui": "dist/index.html",
+  "editorType": ["figma"]
+}
