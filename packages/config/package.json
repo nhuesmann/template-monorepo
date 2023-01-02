@@ -1,0 +1,38 @@
+{
+  "name": "config",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "exports": {
+    "./eslint": "./eslint/default.js",
+    "./eslint/node": "./eslint/node.js",
+    "./eslint/web": "./eslint/web.js",
+    "./tailwind": "./tailwind/tailwind.config.js",
+    "./tsconfig/base": "./tsconfig/base.json",
+    "./tsconfig/cloudflare-worker": "./tsconfig/cloudflare-worker.json",
+    "./tsconfig/figma-plugin": "./tsconfig/figma-plugin.json",
+    "./tsconfig/node": "./tsconfig/node.json",
+    "./tsconfig/react-vite-app": "./tsconfig/react-vite-app.json"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts": "^18.12.1",
+    "@tsconfig/recommended": "^1.0.1",
+    "@tsconfig/vite-react": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-turbo": "latest",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-tailwindcss": "^3.7.1",
+    "prettier": "^2.8.1",
+    "prettier-plugin-tailwindcss": "^0.2.1",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4"
+  }
+}

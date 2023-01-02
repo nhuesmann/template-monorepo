@@ -11,11 +11,11 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "clean-install": "npx rimraf ./**/node_modules && pnpm install"
   },
   "devDependencies": {
+    "config": "workspace:*",
     "eslint": "^8.30.0",
-    "eslint-config-custom": "workspace:*",
     "prettier": "latest",
     "turbo": "latest"
   },
