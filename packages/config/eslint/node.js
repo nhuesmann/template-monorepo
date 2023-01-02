@@ -1,5 +1,10 @@
+const join = require('path').join;
+
 module.exports = {
-  extends: ['./shared/core.js', './shared/prettier.js'],
+  extends: [
+    join(__dirname, './shared/core.js'),
+    join(__dirname, './shared/prettier.js'),
+  ],
   plugins: ['node'],
   env: { node: true },
   rules: {

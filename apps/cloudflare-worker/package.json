@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-worker",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -13,9 +13,8 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20221111.1",
+    "config": "workspace:*",
     "eslint": "^8.31.0",
-    "eslint-config-custom": "workspace:*",
-    "tsconfig": "workspace:*",
     "types": "workspace:*",
     "typescript": "^4.9.4",
     "wrangler": "^2.6.2"

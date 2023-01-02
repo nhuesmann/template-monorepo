@@ -1,4 +1,4 @@
 {
-  "extends": "tsconfig/cloudflare-worker.json",
+  "extends": "config/tsconfig/cloudflare-worker",
   "include": ["**/*.ts"]
 }

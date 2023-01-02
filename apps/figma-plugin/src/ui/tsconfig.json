@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig/react-vite-app.json",
+  "extends": "config/tsconfig/react-vite-app",
   "compilerOptions": {
     "lib": ["ES2015", "DOM"],
     "skipLibCheck": true,

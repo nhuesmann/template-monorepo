@@ -1,4 +1,1 @@
-module.exports = {
-  root: true,
-  extends: ['custom/web'],
-};
+module.exports = require('config/eslint/web');

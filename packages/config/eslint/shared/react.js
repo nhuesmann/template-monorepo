@@ -1,4 +1,4 @@
-const config = require('tailwind-config/tailwind.config.js');
+const config = require('../../tailwind/tailwind.config.js');
 
 module.exports = {
   extends: ['plugin:tailwindcss/recommended'],
