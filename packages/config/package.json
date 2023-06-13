@@ -11,10 +11,12 @@
     "./tsconfig/base": "./tsconfig/base.json",
     "./tsconfig/cloudflare-worker": "./tsconfig/cloudflare-worker.json",
     "./tsconfig/figma-plugin": "./tsconfig/figma-plugin.json",
+    "./tsconfig/next": "./tsconfig/next.json",
     "./tsconfig/node": "./tsconfig/node.json",
     "./tsconfig/react-vite-app": "./tsconfig/react-vite-app.json"
   },
   "devDependencies": {
+    "@tsconfig/next": "^1.0.5",
     "@tsconfig/node-lts": "^18.12.1",
     "@tsconfig/recommended": "^1.0.1",
     "@tsconfig/vite-react": "^1.0.1",
